@@ -1,11 +1,22 @@
 body {
     background-color: #1E252B;
+    font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 .header-list {
     display: flex;
     color: #FFFFFF8C;
     text-decoration: none;
+    list-style: none;
     justify-content: center;
+    gap: 20px;
+}
+
+.super {
+    
+    right: 100px;
+    color: #FFFFFF8C;
+    text-decoration: none;
+    list-style: none;
     gap: 20px;
 }
