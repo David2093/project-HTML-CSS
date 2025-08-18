@@ -70,3 +70,19 @@ body {
 .auth-buttons .signup:hover {
     background: #ff814c;
 }
+
+.explore-more {
+    background: #ff6b2c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;    
+}
+
+
+.explore-more:hover {
+    background: #ff814c;
+}
+
