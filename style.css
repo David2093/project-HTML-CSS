@@ -5,6 +5,7 @@ body {
 
 
 
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -36,7 +37,7 @@ body {
 
 .header-list a {
     text-decoration: none;
-    color: #c7c7c7;
+    color: #FFFFFF8C;
     font-size: 16px;
     transition: color 0.3s;
 }
@@ -53,7 +54,7 @@ body {
 
 .auth-buttons .login {
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF8C;
     font-size: 16px;
 }
 
@@ -84,5 +85,56 @@ body {
 
 .explore-more:hover {
     background: #ff814c;
+}
+
+.search {
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+       
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background: #283036;
+  border: 1.5px ; 
+  border-radius: 15px;
+  padding: 8px 12px;
+}
+
+.button-search {
+    background: #ff6b2c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;   
+}
+
+.input-search {
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 100%;   
+}
+
+.messenger {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+
+}
+
+.most {
+    display: flex;
+    justify-content: center;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
 }
 
