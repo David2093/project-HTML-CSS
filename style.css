@@ -138,3 +138,70 @@ body {
     justify-content: center;
 }
 
+header {
+    color: #FFFFFF;
+}
+
+main {
+    color: #FFFFFF;
+}
+
+footer {
+    color: #FFFFFF;
+}
+
+.tag {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.logos {
+  background: #1E252B;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-container {
+  display: grid;
+  gap: 20px;
+  padding: 40px;    
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+margin: 10px 0 5px;
+}
+
+.card p {
+font-size: 14px;
+color: #555;
+}
+
+.visit-button {
+display: inline-block;
+margin-top: 10px;
+padding: 8px 16px;
+border-radius: 8px;
+background: #ff5722;
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+
+.visit-button:hover {
+ background: #e64a19;
+}
+
+.card-super {
+display: flex;
+align-items: center;   
+gap: 10px;            
+margin-top: 15px;
+}
