@@ -209,12 +209,23 @@ gap: 10px;
 margin-top: 15px;
 }
 
-.logos, .sketch {
-  background: #1e293b;
+ .sketch {
+  background: #28303699;
   border-radius: 16px;
   padding: 20px;
   position: relative;
   transition: 0.3s ease-in-out;
+  display: inline-block; 
+  padding: 20px 40px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 12px;
+  background: radial-gradient(
+  circle at 90% 10%,          
+  #4a2e2c 0%, 
+  #262d32 60%     
+  );
 }
 
 .container-load-more {
@@ -264,4 +275,23 @@ margin-top: 15px;
 
 .tx {
   color: #FFFFFF8C;   
+}
+
+.phpstorm {
+  background: #28303699;
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  display: inline-block; 
+  padding: 20px 40px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 12px;
+  background: radial-gradient(
+  circle at 90% 10%,          
+  #4a2e2c 0%, 
+  #262d32 60%     
+  );
 }
