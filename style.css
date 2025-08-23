@@ -165,7 +165,7 @@ footer {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
   max-width: 1200px;   
   margin: 0 auto;     
@@ -295,3 +295,20 @@ margin-top: 15px;
   #262d32 60%     
   );
 }
+
+.newcomer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 2rem;
+  margin: 3rem 0;
+  align-items: start;
+}
+
+
+.newcomer-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+
