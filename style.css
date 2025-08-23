@@ -82,6 +82,12 @@ body {
   cursor: pointer;
 }
 
+.fon {
+  display: flex;
+  justify-content: end;
+
+}
+
 
 .explore-more:hover {
   background: #ff814c;
@@ -136,6 +142,9 @@ body {
 .tools {
   display: flex;
   justify-content: center;
+  text-align: center;
+  color: #FFFFFF8C;
+  line-height: 30px;
 }
 
 header {
@@ -326,5 +335,98 @@ footer {
 .newcomer-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 20px;
 }
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 40px;
+  gap: 50px;
+  margin-top: 50px;
+  color: #fff;
+  position: relative;
+  width:849px;
+}
+
+.person-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.person-photo img {
+  width: 399px;
+  border-radius: 16px;
+}
+
+.person-text {
+ color:#FFFFFFC7 ;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 30px;
+}
+
+.become {
+  display: flex;
+  justify-content: center;
+}
+
+.join {
+  display:flex ;
+  justify-content: center;
+  color:#FFFFFF8C ;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+.antool {
+  color: #FFFFFF8C;
+  line-height: 30px;
+}
+
+.join-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #283036;
+  border: 1.5px;
+  border-radius: 15px;
+  padding: 8px 12px;  
+}
+
+.enter { 
+  width: 549px;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 100%;  
+}
+
+.join-us {
+  background: #ff6b2c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
