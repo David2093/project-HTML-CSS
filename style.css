@@ -229,18 +229,6 @@ footer {
   margin-top: 15px;
 }
 
-.sketch {
-  background: #28303699;
-  border-radius: 15px;
-  padding: 20px;
-  position: relative;
-  transition: 0.3s ease-in-out;
-  padding: 20px 40px;
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  border-radius: 12px;
-}
 
 .sketch:hover {
   transform: translateY(-5px);
@@ -324,11 +312,8 @@ footer {
 }
 
 .newcomer-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 2rem;
-  margin: 3rem 0;
-  align-items: start;
+  display: flex;
+  justify-content: end;
 }
 
 
@@ -416,6 +401,23 @@ footer {
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;  
+}
+
+.card-programs {
+  width: 392px;
+  height: 294px;
+  background: #28303699;
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.card-programs:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background: radial-gradient(circle at 90% 10%,
+  #4a2e2c 0%,
+  #262d32 60%);
 }
 
 
