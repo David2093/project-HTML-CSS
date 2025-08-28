@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 30px;
 }
 
 .logo {
@@ -148,10 +149,6 @@ body {
 .hero-image img {
   max-width: 600px;
   height: auto;
-}
-
-.header-container {
-  margin: 30px;
 }
 
 header {
