@@ -10,7 +10,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px;
 }
 
 .logo {
@@ -72,8 +71,6 @@ body {
 .auth-buttons .signup:hover {
   background: #ff814c;
 }
-
-
 
 .hero-section {
   display: flex;
@@ -149,6 +146,23 @@ body {
 .hero-image img {
   max-width: 600px;
   height: auto;
+}
+
+.header-container {
+  margin: 30px;
+}
+
+.most {
+  display: flex;
+  justify-content: center;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF8C;
+  line-height: 30px;
 }
 
 header {
