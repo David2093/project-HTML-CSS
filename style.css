@@ -72,29 +72,17 @@ body {
   background: #ff814c;
 }
 
-.explore-more {
-  background: #ff6b2c;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-}
+
 
 .fon {
-  background-image: url("./src/images/background.webp");
   background-repeat: no-repeat;
-  background-position: right top; 
-  background-size: contain; /* або cover */
-  width: 100%;
-  height: 400px;
+  background-position: right top;
+  background-size: contain;
+  width: 589px;
+  height: 892px;
 }
 
 
-.explore-more:hover {
-  background: #ff814c;
-}
 
 .search {
   margin-top: 40px;
@@ -121,6 +109,7 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
 
 .input-search {
   background: transparent;
@@ -271,8 +260,8 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   background: radial-gradient(circle at 90% 10%,
-  #4a2e2c 0%,
-  #262d32 60%);
+      #4a2e2c 0%,
+      #262d32 60%);
 }
 
 .container-load-more {
@@ -288,20 +277,20 @@ footer {
 
 
 .load-more {
-  display: inline-block;
-  padding: 12px 28px;
-  border: none;
-  border-radius: 12px;
-  background: linear-gradient(45deg, #ff7e29, #ff5722);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ff6933;
   text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 14px 40px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 .load-more:hover {
-  background-color: #ff814c;
+  background-color: rgba(255, 105, 51, 0.1);
+  border-color: #ff6933;
 }
 
 .trusted {
@@ -344,8 +333,8 @@ footer {
   font-weight: bold;
   border-radius: 12px;
   background: radial-gradient(circle at 90% 10%,
-  #4a2e2c 0%,
-  #262d32 60%);
+      #4a2e2c 0%,
+      #262d32 60%);
 }
 
 
@@ -424,7 +413,7 @@ footer {
 }
 
 .join-container .join-us {
-  background-color: #ff6b2b; 
+  background-color: #ff6b2b;
   color: #fff;
   border: none;
   padding: 12px 24px;
@@ -582,7 +571,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 15px;  
+  margin-top: 15px;
 }
 
 .trusted {
@@ -652,4 +641,3 @@ footer {
   display: flex;
   justify-content: center;
 }
-
