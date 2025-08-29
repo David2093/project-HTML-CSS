@@ -255,6 +255,7 @@ footer {
 }
 
 .visit-button {
+  background: #FF6E30;
   padding: 8px 18px;
   border-radius: 8px;
   background: #1E252B;
@@ -263,9 +264,6 @@ footer {
   font-size: 14px;
 }
 
-.visit-button.orange {
-  background: #FF6E30;
-}
 
 .card:hover {
   transform: translateY(-5px);
@@ -312,6 +310,7 @@ footer {
   padding: 14px 40px;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .load-more:hover {
